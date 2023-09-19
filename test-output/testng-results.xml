@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="18" total="28" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-23T11:32:24 IST" name="UrbanLadder_Hybrid" finished-at="2021-09-23T11:34:13 IST" duration-ms="108758">
+    <groups>
+    </groups>
+    <test started-at="2021-09-23T11:32:24 IST" name="Test" finished-at="2021-09-23T11:34:13 IST" duration-ms="108758">
+      <class name="testCases.ValidateTitle">
+        <test-method is-config="true" signature="initializeReporter()[pri:0, instance:testCases.ValidateTitle@2ea41516]" started-at="2021-09-23T11:32:24 IST" name="initializeReporter" finished-at="2021-09-23T11:32:24 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReporter -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.ValidateTitle@2ea41516]" started-at="2021-09-23T11:32:24 IST" name="setupBrowser" finished-at="2021-09-23T11:32:29 IST" duration-ms="5402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="titleValidation()[pri:0, instance:testCases.ValidateTitle@2ea41516]" started-at="2021-09-23T11:32:29 IST" name="titleValidation" finished-at="2021-09-23T11:32:29 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testCases.ValidateTitle@2ea41516]" started-at="2021-09-23T11:32:29 IST" name="teardown" finished-at="2021-09-23T11:32:35 IST" duration-ms="5478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=titleValidation status=SUCCESS method=ValidateTitle.titleValidation()[pri:0, instance:testCases.ValidateTitle@2ea41516] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterTestTeardown()[pri:0, instance:testCases.ValidateTitle@2ea41516]" started-at="2021-09-23T11:34:12 IST" name="afterTestTeardown" finished-at="2021-09-23T11:34:13 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestTeardown -->
+      </class> <!-- testCases.ValidateTitle -->
+      <class name="testCases.ValidateHelp">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.ValidateHelp@6404f418]" started-at="2021-09-23T11:32:48 IST" name="setupBrowser" finished-at="2021-09-23T11:32:52 IST" duration-ms="4416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="helpValidation()[pri:0, instance:testCases.ValidateHelp@6404f418]" started-at="2021-09-23T11:32:52 IST" name="helpValidation" finished-at="2021-09-23T11:32:53 IST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helpValidation -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testCases.ValidateHelp@6404f418]" started-at="2021-09-23T11:32:53 IST" name="teardown" finished-at="2021-09-23T11:32:58 IST" duration-ms="4469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=helpValidation status=SUCCESS method=ValidateHelp.helpValidation()[pri:0, instance:testCases.ValidateHelp@6404f418] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.ValidateHelp -->
+      <class name="testCases.ValidateTrackOrder">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.ValidateTrackOrder@316bcf94]" started-at="2021-09-23T11:32:35 IST" name="setupBrowser" finished-at="2021-09-23T11:32:39 IST" duration-ms="4527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="trackOrderValidation()[pri:0, instance:testCases.ValidateTrackOrder@316bcf94]" started-at="2021-09-23T11:32:39 IST" name="trackOrderValidation" finished-at="2021-09-23T11:32:44 IST" duration-ms="4031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trackOrderValidation -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testCases.ValidateTrackOrder@316bcf94]" started-at="2021-09-23T11:32:44 IST" name="teardown" finished-at="2021-09-23T11:32:48 IST" duration-ms="4430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=trackOrderValidation status=SUCCESS method=ValidateTrackOrder.trackOrderValidation()[pri:0, instance:testCases.ValidateTrackOrder@316bcf94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.ValidateTrackOrder -->
+      <class name="testCases.ValidateBulkOrders">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.ValidateBulkOrders@31fa1761]" started-at="2021-09-23T11:33:27 IST" name="setupBrowser" finished-at="2021-09-23T11:33:31 IST" duration-ms="4319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="bulkOrderValidation()[pri:0, instance:testCases.ValidateBulkOrders@31fa1761]" started-at="2021-09-23T11:33:31 IST" name="bulkOrderValidation" finished-at="2021-09-23T11:33:35 IST" duration-ms="3864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bulkOrderValidation -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testCases.ValidateBulkOrders@31fa1761]" started-at="2021-09-23T11:33:35 IST" name="teardown" finished-at="2021-09-23T11:33:39 IST" duration-ms="4607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bulkOrderValidation status=SUCCESS method=ValidateBulkOrders.bulkOrderValidation()[pri:0, instance:testCases.ValidateBulkOrders@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.ValidateBulkOrders -->
+      <class name="testCases.ValidateCustomerStory">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.ValidateCustomerStory@729d991e]" started-at="2021-09-23T11:33:16 IST" name="setupBrowser" finished-at="2021-09-23T11:33:20 IST" duration-ms="4661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="customerStoryValidation()[pri:0, instance:testCases.ValidateCustomerStory@729d991e]" started-at="2021-09-23T11:33:20 IST" name="customerStoryValidation" finished-at="2021-09-23T11:33:21 IST" duration-ms="1120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerStoryValidation -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testCases.ValidateCustomerStory@729d991e]" started-at="2021-09-23T11:33:21 IST" name="teardown" finished-at="2021-09-23T11:33:27 IST" duration-ms="5192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customerStoryValidation status=SUCCESS method=ValidateCustomerStory.customerStoryValidation()[pri:0, instance:testCases.ValidateCustomerStory@729d991e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.ValidateCustomerStory -->
+      <class name="testCases.ValidateStores">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.ValidateStores@1de5f259]" started-at="2021-09-23T11:33:03 IST" name="setupBrowser" finished-at="2021-09-23T11:33:08 IST" duration-ms="4353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="storesValidation()[pri:0, instance:testCases.ValidateStores@1de5f259]" started-at="2021-09-23T11:33:08 IST" name="storesValidation" finished-at="2021-09-23T11:33:11 IST" duration-ms="3263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storesValidation -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testCases.ValidateStores@1de5f259]" started-at="2021-09-23T11:33:11 IST" name="teardown" finished-at="2021-09-23T11:33:16 IST" duration-ms="4787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=storesValidation status=SUCCESS method=ValidateStores.storesValidation()[pri:0, instance:testCases.ValidateStores@1de5f259] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.ValidateStores -->
+      <class name="testCases.ValidateCart">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.ValidateCart@3e11f9e9]" started-at="2021-09-23T11:32:58 IST" name="setupBrowser" finished-at="2021-09-23T11:33:02 IST" duration-ms="4115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="cartValidation()[pri:0, instance:testCases.ValidateCart@3e11f9e9]" started-at="2021-09-23T11:33:02 IST" name="cartValidation" finished-at="2021-09-23T11:33:03 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartValidation -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testCases.ValidateCart@3e11f9e9]" started-at="2021-09-23T11:33:03 IST" name="teardown" finished-at="2021-09-23T11:33:03 IST" duration-ms="538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartValidation status=SUCCESS method=ValidateCart.cartValidation()[pri:0, instance:testCases.ValidateCart@3e11f9e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.ValidateCart -->
+      <class name="testCases.ValidateSearch">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.ValidateSearch@2c1b194a]" started-at="2021-09-23T11:33:39 IST" name="setupBrowser" finished-at="2021-09-23T11:33:44 IST" duration-ms="4097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="searchValidation()[pri:0, instance:testCases.ValidateSearch@2c1b194a]" started-at="2021-09-23T11:33:44 IST" name="searchValidation" finished-at="2021-09-23T11:33:45 IST" duration-ms="1716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchValidation -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testCases.ValidateSearch@2c1b194a]" started-at="2021-09-23T11:33:45 IST" name="teardown" finished-at="2021-09-23T11:33:50 IST" duration-ms="5021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchValidation status=SUCCESS method=ValidateSearch.searchValidation()[pri:0, instance:testCases.ValidateSearch@2c1b194a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.ValidateSearch -->
+      <class name="testCases.ValidateWishlist">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.ValidateWishlist@66f57048]" started-at="2021-09-23T11:34:02 IST" name="setupBrowser" finished-at="2021-09-23T11:34:07 IST" duration-ms="4397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="wishlistValidation()[pri:0, instance:testCases.ValidateWishlist@66f57048]" started-at="2021-09-23T11:34:07 IST" name="wishlistValidation" finished-at="2021-09-23T11:34:08 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlistValidation -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testCases.ValidateWishlist@66f57048]" started-at="2021-09-23T11:34:08 IST" name="teardown" finished-at="2021-09-23T11:34:12 IST" duration-ms="4642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wishlistValidation status=SUCCESS method=ValidateWishlist.wishlistValidation()[pri:0, instance:testCases.ValidateWishlist@66f57048] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.ValidateWishlist -->
+      <class name="testCases.ValidateGiftCard">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testCases.ValidateGiftCard@4dbb42b7]" started-at="2021-09-23T11:33:50 IST" name="setupBrowser" finished-at="2021-09-23T11:33:55 IST" duration-ms="4321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="giftsValidation()[pri:0, instance:testCases.ValidateGiftCard@4dbb42b7]" started-at="2021-09-23T11:33:55 IST" name="giftsValidation" finished-at="2021-09-23T11:33:57 IST" duration-ms="2370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftsValidation -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:testCases.ValidateGiftCard@4dbb42b7]" started-at="2021-09-23T11:33:57 IST" name="teardown" finished-at="2021-09-23T11:34:02 IST" duration-ms="5308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=giftsValidation status=SUCCESS method=ValidateGiftCard.giftsValidation()[pri:0, instance:testCases.ValidateGiftCard@4dbb42b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.ValidateGiftCard -->
+    </test> <!-- Test -->
+  </suite> <!-- UrbanLadder_Hybrid -->
+</testng-results>

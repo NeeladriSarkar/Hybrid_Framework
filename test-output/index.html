@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-UrbanLadder_Hybrid" class="navigator-link">
+              <span class="suite-name border-passed">UrbanLadder_Hybrid</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-UrbanLadder_Hybrid" class="navigator-link ">
+                    <span>C:\Users\KIIT\eclipse-workspace\UrbanLadder_Hybrid\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-UrbanLadder_Hybrid" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-UrbanLadder_Hybrid" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-UrbanLadder_Hybrid" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-UrbanLadder_Hybrid" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-UrbanLadder_Hybrid" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-UrbanLadder_Hybrid" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-UrbanLadder_Hybrid" class="hide-methods passed suite-UrbanLadder_Hybrid"> (hide)</a> <!-- hide-methods passed suite-UrbanLadder_Hybrid -->
+                      <a href="#" panel-name="suite-UrbanLadder_Hybrid" class="show-methods passed suite-UrbanLadder_Hybrid"> (show)</a> <!-- show-methods passed suite-UrbanLadder_Hybrid -->
+                    </span>
+                    <div class="method-list-content passed suite-UrbanLadder_Hybrid">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UrbanLadder_Hybrid" title="testCases.ValidateBulkOrders" class="method navigator-link" hash-for-method="bulkOrderValidation">bulkOrderValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UrbanLadder_Hybrid" title="testCases.ValidateCart" class="method navigator-link" hash-for-method="cartValidation">cartValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UrbanLadder_Hybrid" title="testCases.ValidateCustomerStory" class="method navigator-link" hash-for-method="customerStoryValidation">customerStoryValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UrbanLadder_Hybrid" title="testCases.ValidateGiftCard" class="method navigator-link" hash-for-method="giftsValidation">giftsValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UrbanLadder_Hybrid" title="testCases.ValidateHelp" class="method navigator-link" hash-for-method="helpValidation">helpValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UrbanLadder_Hybrid" title="testCases.ValidateSearch" class="method navigator-link" hash-for-method="searchValidation">searchValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UrbanLadder_Hybrid" title="testCases.ValidateStores" class="method navigator-link" hash-for-method="storesValidation">storesValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UrbanLadder_Hybrid" title="testCases.ValidateTitle" class="method navigator-link" hash-for-method="titleValidation">titleValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UrbanLadder_Hybrid" title="testCases.ValidateTrackOrder" class="method navigator-link" hash-for-method="trackOrderValidation">trackOrderValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UrbanLadder_Hybrid" title="testCases.ValidateWishlist" class="method navigator-link" hash-for-method="wishlistValidation">wishlistValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-UrbanLadder_Hybrid -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-UrbanLadder_Hybrid" class="panel UrbanLadder_Hybrid">
+          <div class="suite-UrbanLadder_Hybrid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ValidateHelp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="helpValidation">
+                  </a> <!-- helpValidation -->
+                  <span class="method-name">helpValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UrbanLadder_Hybrid-class-passed -->
+          <div class="suite-UrbanLadder_Hybrid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ValidateWishlist</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="wishlistValidation">
+                  </a> <!-- wishlistValidation -->
+                  <span class="method-name">wishlistValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UrbanLadder_Hybrid-class-passed -->
+          <div class="suite-UrbanLadder_Hybrid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ValidateCustomerStory</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerStoryValidation">
+                  </a> <!-- customerStoryValidation -->
+                  <span class="method-name">customerStoryValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UrbanLadder_Hybrid-class-passed -->
+          <div class="suite-UrbanLadder_Hybrid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ValidateSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchValidation">
+                  </a> <!-- searchValidation -->
+                  <span class="method-name">searchValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UrbanLadder_Hybrid-class-passed -->
+          <div class="suite-UrbanLadder_Hybrid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ValidateBulkOrders</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bulkOrderValidation">
+                  </a> <!-- bulkOrderValidation -->
+                  <span class="method-name">bulkOrderValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UrbanLadder_Hybrid-class-passed -->
+          <div class="suite-UrbanLadder_Hybrid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ValidateStores</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="storesValidation">
+                  </a> <!-- storesValidation -->
+                  <span class="method-name">storesValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UrbanLadder_Hybrid-class-passed -->
+          <div class="suite-UrbanLadder_Hybrid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ValidateGiftCard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="giftsValidation">
+                  </a> <!-- giftsValidation -->
+                  <span class="method-name">giftsValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UrbanLadder_Hybrid-class-passed -->
+          <div class="suite-UrbanLadder_Hybrid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ValidateTitle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleValidation">
+                  </a> <!-- titleValidation -->
+                  <span class="method-name">titleValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UrbanLadder_Hybrid-class-passed -->
+          <div class="suite-UrbanLadder_Hybrid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ValidateCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartValidation">
+                  </a> <!-- cartValidation -->
+                  <span class="method-name">cartValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UrbanLadder_Hybrid-class-passed -->
+          <div class="suite-UrbanLadder_Hybrid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ValidateTrackOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="trackOrderValidation">
+                  </a> <!-- trackOrderValidation -->
+                  <span class="method-name">trackOrderValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UrbanLadder_Hybrid-class-passed -->
+        </div> <!-- panel UrbanLadder_Hybrid -->
+        <div panel-name="test-xml-UrbanLadder_Hybrid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\KIIT\eclipse-workspace\UrbanLadder_Hybrid\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;UrbanLadder_Hybrid&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.ValidateTitle&quot;/&gt;
+      &lt;class name=&quot;testCases.ValidateTrackOrder&quot;/&gt;
+      &lt;class name=&quot;testCases.ValidateHelp&quot;/&gt;
+      &lt;class name=&quot;testCases.ValidateCart&quot;/&gt;
+      &lt;class name=&quot;testCases.ValidateStores&quot;/&gt;
+      &lt;class name=&quot;testCases.ValidateCustomerStory&quot;/&gt;
+      &lt;class name=&quot;testCases.ValidateBulkOrders&quot;/&gt;
+      &lt;class name=&quot;testCases.ValidateSearch&quot;/&gt;
+      &lt;class name=&quot;testCases.ValidateGiftCard&quot;/&gt;
+      &lt;class name=&quot;testCases.ValidateWishlist&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- UrbanLadder_Hybrid --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-UrbanLadder_Hybrid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for UrbanLadder_Hybrid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-UrbanLadder_Hybrid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for UrbanLadder_Hybrid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-UrbanLadder_Hybrid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for UrbanLadder_Hybrid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_UrbanLadder_Hybrid');
+function tableData_UrbanLadder_Hybrid() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'trackOrderValidation')
+data.setCell(0, 2, 'testCases.ValidateTrackOrder')
+data.setCell(0, 3, 4031);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'bulkOrderValidation')
+data.setCell(1, 2, 'testCases.ValidateBulkOrders')
+data.setCell(1, 3, 3864);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'storesValidation')
+data.setCell(2, 2, 'testCases.ValidateStores')
+data.setCell(2, 3, 3263);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'giftsValidation')
+data.setCell(3, 2, 'testCases.ValidateGiftCard')
+data.setCell(3, 3, 2370);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchValidation')
+data.setCell(4, 2, 'testCases.ValidateSearch')
+data.setCell(4, 3, 1716);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'customerStoryValidation')
+data.setCell(5, 2, 'testCases.ValidateCustomerStory')
+data.setCell(5, 3, 1120);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'cartValidation')
+data.setCell(6, 2, 'testCases.ValidateCart')
+data.setCell(6, 3, 919);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'helpValidation')
+data.setCell(7, 2, 'testCases.ValidateHelp')
+data.setCell(7, 3, 883);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'wishlistValidation')
+data.setCell(8, 2, 'testCases.ValidateWishlist')
+data.setCell(8, 3, 858);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'titleValidation')
+data.setCell(9, 2, 'testCases.ValidateTitle')
+data.setCell(9, 3, 26);
+window.suiteTableData['UrbanLadder_Hybrid']= { tableData: data, tableDiv: 'times-div-UrbanLadder_Hybrid'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <div id="times-div-UrbanLadder_Hybrid">
+              </div> <!-- times-div-UrbanLadder_Hybrid -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-UrbanLadder_Hybrid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for UrbanLadder_Hybrid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-UrbanLadder_Hybrid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">18 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ValidateHelp</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeReporter</span>
+                <br/>
+                <span class="ignored-method-name">afterTestTeardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ValidateWishlist</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeReporter</span>
+                <br/>
+                <span class="ignored-method-name">afterTestTeardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ValidateCustomerStory</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeReporter</span>
+                <br/>
+                <span class="ignored-method-name">afterTestTeardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ValidateSearch</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeReporter</span>
+                <br/>
+                <span class="ignored-method-name">afterTestTeardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ValidateBulkOrders</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeReporter</span>
+                <br/>
+                <span class="ignored-method-name">afterTestTeardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ValidateGiftCard</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeReporter</span>
+                <br/>
+                <span class="ignored-method-name">afterTestTeardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ValidateStores</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeReporter</span>
+                <br/>
+                <span class="ignored-method-name">afterTestTeardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ValidateCart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeReporter</span>
+                <br/>
+                <span class="ignored-method-name">afterTestTeardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.ValidateTrackOrder</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeReporter</span>
+                <br/>
+                <span class="ignored-method-name">afterTestTeardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-UrbanLadder_Hybrid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ValidateTitle</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initializeReporter</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">266 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">titleValidation</span>
+                <span class="method-start">5669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=titleValidation status=SUCCESS method=ValidateTitle.titleValidation()[pri:0, instan...)</span>
+                <span class="method-start">5698 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ValidateTrackOrder</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">11179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">trackOrderValidation</span>
+                <span class="method-start">15707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=trackOrderValidation status=SUCCESS method=ValidateTrackOrder.trackOrderValidation(...)</span>
+                <span class="method-start">19740 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ValidateHelp</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">24171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">helpValidation</span>
+                <span class="method-start">28587 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=helpValidation status=SUCCESS method=ValidateHelp.helpValidation()[pri:0, instance:...)</span>
+                <span class="method-start">29471 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ValidateCart</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">33940 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartValidation</span>
+                <span class="method-start">38055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=cartValidation status=SUCCESS method=ValidateCart.cartValidation()[pri:0, instance:...)</span>
+                <span class="method-start">38975 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ValidateStores</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">39515 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">storesValidation</span>
+                <span class="method-start">43868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=storesValidation status=SUCCESS method=ValidateStores.storesValidation()[pri:0, ins...)</span>
+                <span class="method-start">47132 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ValidateCustomerStory</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">51919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">customerStoryValidation</span>
+                <span class="method-start">56580 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=customerStoryValidation status=SUCCESS method=ValidateCustomerStory.customerStoryVa...)</span>
+                <span class="method-start">57702 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ValidateBulkOrders</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">62894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bulkOrderValidation</span>
+                <span class="method-start">67213 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=bulkOrderValidation status=SUCCESS method=ValidateBulkOrders.bulkOrderValidation()[...)</span>
+                <span class="method-start">71077 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ValidateSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">75685 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchValidation</span>
+                <span class="method-start">79782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=searchValidation status=SUCCESS method=ValidateSearch.searchValidation()[pri:0, ins...)</span>
+                <span class="method-start">81500 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ValidateGiftCard</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">86522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">giftsValidation</span>
+                <span class="method-start">90843 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=giftsValidation status=SUCCESS method=ValidateGiftCard.giftsValidation()[pri:0, ins...)</span>
+                <span class="method-start">93213 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ValidateWishlist</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">98521 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">wishlistValidation</span>
+                <span class="method-start">102918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=wishlistValidation status=SUCCESS method=ValidateWishlist.wishlistValidation()[pri:...)</span>
+                <span class="method-start">103777 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ValidateTitle</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTestTeardown</span>
+                <span class="method-start">108420 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

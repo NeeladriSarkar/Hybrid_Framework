@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UrbanLadder_Hybrid">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testCases.ValidateTitle"/>
+      <class name="testCases.ValidateTrackOrder"/>
+      <class name="testCases.ValidateHelp"/>
+      <class name="testCases.ValidateCart"/>
+      <class name="testCases.ValidateStores"/>
+      <class name="testCases.ValidateCustomerStory"/>
+      <class name="testCases.ValidateBulkOrders"/>
+      <class name="testCases.ValidateSearch"/>
+      <class name="testCases.ValidateGiftCard"/>
+      <class name="testCases.ValidateWishlist"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- UrbanLadder_Hybrid -->
